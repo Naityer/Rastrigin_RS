@@ -1,3 +1,21 @@
+# 🧬 Rastrigin_RS – Genetic Algorithm Optimization (Lab 3)
+
+This project implements a Genetic Algorithm (GA) in Python to minimize the 2D Rastrigin function using **Rank Selection** as the parent selection strategy. It was developed as part of **Artificial Intelligence Lab 3** (Variant 2) for educational purposes.
+
+## Professor
+- Valeriya Khan
+
+## Date
+23/03  Summer 2025
+
+## Variant 2
+Optimize Rastrigin function using Rank Selection
+
+## Students
+- Tian Duque Rey
+- Eduardo Sánchez Belchí
+
+---
 
 ## 🛠️ Requirements
 
@@ -10,10 +28,6 @@ Install with:
 
 ```bash
 pip install -r requirements.txt
-
-# 🧬 Rastrigin_RS – Genetic Algorithm Optimization (Lab 3)
-
-This project implements a Genetic Algorithm (GA) in Python to minimize the 2D Rastrigin function using **Rank Selection** as the parent selection strategy. It was developed as part of **Artificial Intelligence Lab 3** (Variant 2) for educational purposes.
 
 ## 📌 Objective
 
@@ -40,14 +54,19 @@ f(x, y) = 20 + (x^2 - 10\cos(2\pi x)) + (y^2 - 10\cos(2\pi y))
 
 ## 🧪 Experiments
 
-The code supports 4 experiments:
+The project includes **four standalone test scripts**, each corresponding to one experiment. You can execute them directly from the command line:
 
-1. **Hyperparameter search** (grid search over population size, mutation rate/strength, crossover rate, generations)
-2. **Randomness & population impact** (multiple seeds + reduced population sizes)
-3. **Crossover impact** (plots average/best fitness for different crossover rates)
-4. **Mutation impact** (plots convergence behavior for multiple mutation rates & strengths)
+```bash
+# Run Experiment 1: Hyperparameter search
+python test_1.py
 
-All results (plots + CSVs) are saved in the `/data_test/` folder.
+# Run Experiment 2: Randomness and population size
+python test_2.py
 
-## 📂 Project Structure
+# Run Experiment 3: Crossover rate impact
+python test_3.py
+
+# Run Experiment 4: Mutation rate and strength impact
+python test_4.py
+
 
