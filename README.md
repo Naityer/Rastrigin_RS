@@ -6,13 +6,13 @@ This project implements a Genetic Algorithm (GA) in Python to minimize the 2D Ra
 - Valeriya Khan
 
 ## Date
-23/03  Summer 2025
+23/03 – Summer 2025
 
 ## Variant 2
 Optimize Rastrigin function using Rank Selection
 
 ## Students
-- Tian Duque Rey
+- Tian Duque Rey  
 - Eduardo Sánchez Belchí
 
 ---
@@ -28,6 +28,7 @@ Install with:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 📌 Objective
 
@@ -68,5 +69,6 @@ python test_3.py
 
 # Run Experiment 4: Mutation rate and strength impact
 python test_4.py
+```
 
-
+Each script is fully executable and will generate plots and CSV result files inside the `data_test/` directory.
